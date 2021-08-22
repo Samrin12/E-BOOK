@@ -1,0 +1,604 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+
+width: 100%;
+}
+.logo{
+
+width: 100%;
+}
+.logo-img{
+
+width: 15%;
+
+margin: auto;
+}
+.logo-img img{
+
+width: 100%;
+
+margin: 5px 0;
+}
+.menu{
+
+width: 100%;
+
+margin-bottom: 10px;
+margin-top: 10px;
+}
+.menu nav{
+
+width: 30%;
+
+margin: auto;
+}
+.menu nav ul{list-style: none;display: flex;justify-content: space-between;}
+.menu nav ul li{
+
+}
+.menu nav ul li a{
+    
+text-decoration: none;
+    
+color: #000021;
+    
+font-size: 20px;
+    
+font-weight: 100;
+}
+.banner{
+
+width: 85%;
+
+margin:100px auto 60px;
+
+display: flex;
+
+justify-content: space-between;
+
+min-height: 70vh;
+}
+.banner-content{
+
+width: 45%;
+
+height: 100%;
+}
+.banner-content content{
+
+}
+.banner-content h1{
+
+font-size: 60px;
+
+font-weight: 100;
+
+margin-top: 100px;
+
+margin-bottom: 20px;
+}
+.banner-content h3{
+
+font-size: 32px;
+
+font-weight: 100;
+}
+.banner-content p{
+
+font-size: 19px;
+
+font-weight: 100;
+
+color: #828482;
+}
+.banner-content .border{
+
+border: solid 0.5px #312e2eb3;
+
+width: 17%;
+
+margin: 26px 0;
+}
+.banner-img{
+    
+width: 47%;
+    
+height: 100%;
+}
+.banner-img img{
+    
+width: 100%;
+}
+.banner .button{
+
+width: 35%;
+
+margin: 28px 0;
+}
+.banner .button button{
+
+color: white;
+
+background-color: black;
+
+border: black;
+
+font-size: 16px;
+
+font-weight: 800;
+
+padding: 11px 40px;
+}
+.buy-book{
+    
+width: 100%;
+    
+text-align: center;
+}
+.buy-book h1{
+
+font-size: 46px;
+
+font-weight: 100;
+
+margin-bottom: 22px;
+}
+.buy-book p{
+
+font-size: 20px;
+
+width: 42%;
+
+margin: auto;
+
+color: #7575A0;
+}
+.buy-book .border{
+
+border: #716262d1 solid 0.5px;
+
+width: 5%;
+
+margin: 30px auto;
+}
+.button{
+
+width: 100%;
+
+margin: 35px 0;
+}
+.button .row1{
+
+margin: 0 auto 20px;
+
+display: flex;
+
+justify-content: space-between;
+
+width: 62%;
+}
+.button .row2{
+
+display: flex;
+
+justify-content: space-between;
+
+margin: auto;
+
+width: 42%;
+}
+.button button{
+    
+background: black;
+    
+color: white;
+    
+border: solid 1px black;
+    
+padding: 10px 47px;
+    
+font-size: 16px;
+    
+font-weight: 800;
+}
+.author{
+
+width: 100%;
+
+background-color: #F7F7F7;
+
+margin: 100px 0 90px;
+
+border-top: solid #d8cccc80 1px;
+
+display: flex;
+
+justify-content: space-between;
+
+}
+.author .photo{
+
+width: 40%;
+
+margin: 50px 2% 30px 8%;
+}
+.author .photo img{
+}
+.author .content{
+
+width: 40%;
+
+margin: 145px 7% 50px 3%;
+}
+.author .content h1{
+    
+font-size: 45px;
+    
+font-weight: 100;
+    
+margin-bottom: 30px;
+}
+.author .content h3{
+    
+font-size: 27px;
+    
+font-weight: 100;
+}
+.author .content .border{
+    
+border: solid 1px #1f1e1ead;
+    
+width: 10%;
+    
+margin: 25px 0;
+}
+.author .content p{
+    
+font-size: 18px;
+    
+color: #75759B;
+    
+margin-top: 20px;
+}
+.author .content h5{
+    
+margin-top: 40px;
+    
+font-size: 18px;
+}
+.rating{
+
+width: 60%;
+
+margin: 0 auto 50px;
+}
+.rating h1{
+
+font-size: 35px;
+
+font-weight: 100;
+
+color: #292727e8;
+
+text-align: center;
+}
+.rating h4{
+
+text-align: center;
+
+margin: 25px auto;
+
+font-size: 20px;
+
+font-weight: 100;
+}
+.rating .star{
+    
+width: 10%;
+    
+margin: auto;
+}
+.book-price{
+
+width: 100%;
+
+margin-bottom: 50px;
+}
+.book-price .books{
+    
+width: 90%;
+    
+margin: auto;
+}
+.book-price .books img{
+    margin-top: 45px;
+width: 100%;
+}
+.price{
+
+width: 68%;
+
+margin: auto;
+
+justify-content: space-between;
+
+display: flex;
+
+margin-top: 5px;
+}
+.price .border{
+
+width: 60%;
+
+margin: auto;
+
+border: solid 1px #807070e8;
+
+margin-bottom: 48px;
+}
+.price h1{
+
+font-size: 30px;
+
+font-weight: 100;
+
+text-align: center;
+
+margin-bottom: 11px;
+}
+.price p{
+
+text-align: center;
+
+font-size: 20px;
+
+color: #4e4545;
+}
+.price h3{
+
+margin-top: 30px;
+
+text-align: center;
+
+font-weight: 600;
+
+color: black;
+}
+.three-books{
+
+width: 100%;
+
+text-align: center;
+
+margin: 80px 0;
+
+border-top: #b7afaf91 solid 1px;
+}
+.three-books h1{
+
+margin-top: 100px;
+
+font-size: 40px;
+
+font-weight: 100;
+}
+.three-books p{
+
+width: 47%;
+
+margin: 23px auto 22px;
+
+font-size: 18px;
+
+font-weight: 100;
+
+color: #716969;
+}
+.three-books .border{
+
+width: 5%;
+
+margin: auto;
+
+border: solid 1px #0000007a;
+
+margin-bottom: 45px;
+margin-top: 35px;
+}
+.books-3{
+
+width: 85%;
+
+margin: auto;
+
+display: flex;
+
+justify-content: space-between;
+}
+.books-3 h1{
+
+text-align: left;
+
+font-size: 30px;
+
+margin: 35px 0 20px 50px;
+
+font-weight: 100;
+}
+.books-3 h3{
+
+margin: 0 auto 20px 50px;
+
+text-align: left;
+
+font-size: 20px;
+
+font-weight: 100;
+}
+.books-3 .border{
+
+width: 15%;
+
+margin-left: 50px;
+
+margin-top: 10px;
+
+margin-bottom: 22px;
+}
+.books-3 p{
+
+text-align: left;
+
+margin-left: 50px;
+
+width: 75%;
+
+margin-top: 10px;
+}
+.books-3 h4{
+
+margin-left: 50px;
+
+text-align: left;
+
+margin-top: 30px;
+}
+.book-1 img{
+
+}
+.book-2 img{
+
+}
+.book-3 img{margin-top: 7px;width: 96%;}
+footer{ background-color: #1C1E24;
+width: 100%;
+margin-top: 50px;}
+.upper-div{
+   
+    justify-content: space-between;
+    width: 85%;
+    margin: auto;
+    padding: 100px 0 85px 0;
+    display: flex;
+}
+.div1{
+    width: 28%;
+}
+.div1 h1{
+    color: white;
+    font-size: 25px;
+    font-weight: 100;
+    margin-bottom: 20px;
+}
+.div1 p{
+    color: #64848B;
+    font-size: 16px;
+    font-weight: 100;
+}
+.div2{
+    width: 29%;
+}
+.div2 h2{
+    color: white;
+    font-size: 25px;
+    font-weight: 100;
+    margin-bottom: 40px;
+}
+.div2 h1{
+    font-size: 20px;
+    color: white;
+    font-weight: 100;
+    margin-bottom: 25px;
+}
+.div2 p{
+    color: #72848B;
+    font-size: 16px;
+    border-bottom: solid 1px white;
+    padding-bottom: 10px;
+    margin-bottom: 22px;
+    font-weight: 100;
+}
+.div2 h4{
+    font-size: 16px;
+    color: #72848B;
+    font-weight: 100;
+}
+.div3{
+    width: 24%;
+    }
+.div3 h1{
+    color: white;
+    font-weight: 100;
+    font-size: 25;
+    font-size: 25px;
+    margin-bottom: 20px;
+    }
+.div3 input{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    }
+ .div3 button{
+    background: black;
+    border: 1px solid black;
+    color: white;
+    font-size: 15px;
+    font-weight: 800;
+    padding: 10px 25px;
+    }
+.lower-div{
+
+background-color: #000000;
+
+justify-content: space-between;
+
+display: flex;
+
+align-items: center;
+
+height: 80px;
+}
+ .leftdiv{
+
+margin-left: 9%;
+}   
+.leftdiv p{color: #80806B;font-size: 18px;}
+ .rightdiv{
+
+margin-right: 9%;
+
+width: 50%;
+
+}
+ .rightdiv nav{
+     
+width: 55%;
+     
+margin-right: 0;
+     
+margin-left: auto;
+}
+.rightdiv nav ul{
+     
+list-style: none;
+     
+display: flex;
+     
+justify-content: space-between;
+}
+.rightdiv nav ul li {
+     
+}
+.rightdiv nav ul li a{
+     
+text-decoration: none;
+     
+color: #80806B;
+     
+font-size: 18px;
+}
+
